@@ -18,7 +18,7 @@ This screenshot demonstrates the execution of the airflow scheduler command, whi
 Airflow Terminal (Webserver)
 This image shows the execution of the airflow webserver command, which launches Airflow’s web interface. From this interface, you can manage DAGs, monitor tasks, and view their status in real time.
 
-![Airflow Interface](images/screenshots/)
+![Airflow Interface](images/screenshots/airflow_interface.png)
 Airflow Interface
 This screenshot displays the activated DAG from the Airflow interface. The workflow graph and task status confirm that the entire system is functioning correctly.
 
