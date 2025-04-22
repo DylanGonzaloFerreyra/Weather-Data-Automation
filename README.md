@@ -5,6 +5,24 @@ This repository aims to demonstrate how MongoDB can be used to store and query w
 
 ---
 
+## **How It Works ⚙️**
+
+### **The Pipeline:**
+- **Execution**:  
+   The Airflow DAG (`weather_dag.py`) runs on a schedule or can be manually triggered via the Airflow interface.
+
+- **Data Collection**:  
+   Weather data is fetched from the OpenWeatherMap API, capturing information such as temperature, humidity, and weather conditions for a specified city.
+
+- **Processing & Storage**:  
+   The collected data is validated and stored in MongoDB under the `weather` collection within the `weatherDB` database.
+
+### **Outputs:**
+- **Database Entry**:  
+   All weather data is stored in MongoDB, enabling easy querying and analysis.
+
+---
+
 ## **Screenshots 🖼** 
 
 ![MongoDB Interface](images/screenshots/mongoDB_interface.png)
