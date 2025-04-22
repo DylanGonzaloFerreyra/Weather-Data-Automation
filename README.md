@@ -1,4 +1,5 @@
 ![project_cover](images/project_cover.jpg)
+
 This project implements an automated system to collect, store, and manage weather data using the OpenWeatherMap API, MongoDB, and Apache Airflow. It is designed to provide a robust solution for efficiently and systematically gathering climate information, with possibilities for analysis and visualization.
 This repository aims to demonstrate how MongoDB can be used to store and query weather data, complemented by Apache Airflow for process automation. It serves as an educational or demonstrative project and as a foundation for customized solutions.
 
