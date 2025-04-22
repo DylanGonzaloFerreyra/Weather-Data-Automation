@@ -21,3 +21,26 @@ This image shows the execution of the airflow webserver command, which launches 
 Airflow Interface
 This screenshot displays the activated DAG from the Airflow interface. The workflow graph and task status confirm that the entire system is functioning correctly.
 
+---
+
+## **How It Works ⚙️**
+
+### **The Pipeline:**
+- **Execution**:  
+   The Airflow DAG (`weather_dag.py`) runs on a schedule or can be manually triggered via the Airflow interface.
+
+- **Data Collection**:  
+   Weather data is fetched from the OpenWeatherMap API, capturing information such as temperature, humidity, and weather conditions for a specified city.
+
+- **Processing & Storage**:  
+   The collected data is validated and stored in MongoDB under the `weather` collection within the `weatherDB` database.
+
+### **Outputs:**
+- **Database Entry**:  
+   All weather data is stored in MongoDB, enabling easy querying and analysis.
+
+---
+
+
+
+
