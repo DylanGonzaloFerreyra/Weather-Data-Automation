@@ -10,11 +10,11 @@ This repository aims to demonstrate how MongoDB can be used to store and query w
 MongoDB Interface
 This screenshot shows how weather data is stored in the weatherDB database, specifically in the weather collection. Key fields such as city, temperature, humidity, and others are displayed, confirming that the information was successfully collected and saved.
 
-![Airflow Terminal - Scheduler](images/screenshots/)
+![Airflow Terminal - Scheduler](images/screenshots/airflow_terminal_1.png)
 Airflow Terminal (Scheduler)
 This screenshot demonstrates the execution of the airflow scheduler command, which is responsible for initiating workflows defined in the DAGs. The Scheduler ensures that tasks are executed as per the defined schedule.
 
-![Airflow Terminal - Webserver](images/screenshots/)
+![Airflow Terminal - Webserver](images/screenshots/airflow_terminal_2.png)
 Airflow Terminal (Webserver)
 This image shows the execution of the airflow webserver command, which launches Airflow’s web interface. From this interface, you can manage DAGs, monitor tasks, and view their status in real time.
 
