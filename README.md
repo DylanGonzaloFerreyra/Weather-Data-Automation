@@ -6,7 +6,7 @@ This repository aims to demonstrate how MongoDB can be used to store and query w
 
 ## **Screenshots 🖼** 
 
-![MongoDB Interface](images/screenshots/mongoDB_interface)
+![MongoDB Interface](images/screenshots/mongoDB_interface.png)
 MongoDB Interface
 This screenshot shows how weather data is stored in the weatherDB database, specifically in the weather collection. Key fields such as city, temperature, humidity, and others are displayed, confirming that the information was successfully collected and saved.
 
