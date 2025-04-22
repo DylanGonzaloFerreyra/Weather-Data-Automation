@@ -1,3 +1,5 @@
+## **ENGLISH** 🇺🇸
+
 ![project_cover](images/project_cover.jpg)
 
 This project implements an automated system to collect, store, and manage weather data using the OpenWeatherMap API, MongoDB, and Apache Airflow. It is designed to provide a robust solution for efficiently and systematically gathering climate information, with possibilities for analysis and visualization.
@@ -42,6 +44,7 @@ Airflow Interface
 This screenshot displays the activated DAG from the Airflow interface. The workflow graph and task status confirm that the entire system is functioning correctly.
 
 ---
+## **SPANISH** 🇺🇸
 
 Este proyecto implementa un sistema automatizado para recopilar, almacenar y gestionar datos meteorológicos utilizando la API de OpenWeatherMap, MongoDB y Apache Airflow. Está diseñado para ofrecer una solución robusta que permita recolectar información del clima de manera eficiente y programada, con posibilidades de análisis y visualización.
 Este repositorio está destinado a mostrar cómo MongoDB puede ser utilizado para almacenar y consultar datos meteorológicos, complementado con Apache Airflow para la automatización de procesos. Es ideal como proyecto educativo, demostrativo o como base para soluciones personalizadas.
